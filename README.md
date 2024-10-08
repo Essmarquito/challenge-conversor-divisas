@@ -8,32 +8,33 @@ Este proyecto es un conversor de divisas que permite consultar las tasas de camb
 Java 11 o superior
 Biblioteca Gson (se puede incluir como dependencia en Maven o importar manualmente)
 Conexión a internet (para obtener las tasas de cambio desde la API)
-Instrucciones de Uso
-Clona o descarga este repositorio.
-Asegúrate de tener Java y Gson instalados.
-Compila y ejecuta el programa.
-El menú mostrará opciones para realizar conversiones comunes o consultar una tasa de cambio específica.
-El programa se ejecuta en un bucle, por lo que puedes hacer tantas consultas como desees.
+
+**Instrucciones de Uso**
+-Clona o descarga este repositorio.
+-Asegúrate de tener Java y Gson instalados.
+-Compila y ejecuta el programa.
+-El menú mostrará opciones para realizar conversiones comunes o consultar una tasa de cambio específica.
+-El programa se ejecuta en un bucle, por lo que puedes hacer tantas consultas como desees.
 
 **Monedas y sus Siglas**
 A continuación, se muestra una lista de monedas soportadas por el conversor, junto con sus respectivas siglas:
 
-Sigla	Moneda
-USD	Dólar estadounidense
-AED	Dírham de los Emiratos Árabes Unidos
-AFN	Afgani afgano
-ALL	Lek albanés
-AMD	Dram armenio
-ANG	Florín antillano neerlandés
-AOA	Kwanza angoleño
-ARS	Peso argentino
-AUD	Dólar australiano
-AWG	Florín arubeño
-AZN	Manat azerbaiyano
-BAM	Marco convertible de Bosnia-Herzegovina
-BBD	Dólar de Barbados
-BDT	Taka de Bangladés
-BGN	Lev búlgaro
+    Sigla	Moneda
+    USD	Dólar estadounidense
+    AED	Dírham de los Emiratos Árabes Unidos
+    AFN	Afgani afgano
+    ALL	Lek albanés
+    AMD	Dram armenio
+    ANG	Florín antillano neerlandés
+    AOA	Kwanza angoleño
+    ARS	Peso argentino
+    AUD	Dólar australiano
+    AWG	Florín arubeño
+    AZN	Manat azerbaiyano
+    BAM	Marco convertible de Bosnia-Herzegovina
+    BBD	Dólar de Barbados
+    BDT	Taka de Bangladés
+    BGN	Lev búlgaro
 BHD	Dinar bahreiní
 BIF	Franco burundés
 BMD	Dólar de Bermudas
